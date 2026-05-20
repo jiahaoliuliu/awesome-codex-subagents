@@ -56,8 +56,7 @@ Avoid:
 
 ## Model and Sandbox Guidance
 
-- Prefer `gpt-5.4` for complex reasoning/review roles.
-- Prefer `gpt-5.3-codex-spark` for lighter search/synthesis roles.
+- Use `gpt-5.5` for agent `model` values.
 - Use `read-only` by default for review/research agents.
 - Use `workspace-write` only when the agent must implement changes.
 
